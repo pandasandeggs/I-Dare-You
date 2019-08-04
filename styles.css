@@ -111,7 +111,7 @@ p {
     text-align: center;
 }
 
-#playCardButton, #passCardButton {
+#playCardButton, #passCardButton, #nextCardButton {
     display: inline-block;
 }
 
