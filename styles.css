@@ -1,0 +1,157 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+body {
+    background-color: black;
+}
+
+.button {
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    display: block;
+    border-radius: 12px;
+    font-family: Roboto Slab, sans-serif;
+    font-size: 20px;
+}
+
+.submit {
+    margin: 0 auto;
+    padding: 3px;
+    border-radius: 12px;
+    text-align: center;
+    font-family: Roboto Slab, sans-serif;
+}
+
+/* Index.html */
+
+header{
+    background: black;
+    margin: 20px;
+}
+
+header > h1 {
+    color: white;
+    text-align: center;
+    font-size: 48px; 
+    font-family: Roboto Slab, sans-serif;
+}
+
+header > h3 {
+    color: white;
+    text-align: center;
+    font-size: 30px; 
+    font-family: Roboto Slab, sans-serif;
+}
+
+#newGameButton {
+    display: block;
+    max-width: 300px;
+    margin: auto;
+    font-family: Roboto Slab, sans-serif;
+}
+
+/* Teams.html */
+
+header > h2 {
+    color: white;
+    text-align: center;
+    font-size: 30px; 
+    font-family: Roboto Slab, sans-serif;
+}
+
+#team-form {
+    display: block;
+    text-align: center;
+    max-width: 300px;
+    margin: auto;
+    font-family: Roboto Slab, sans-serif;
+}
+
+#submit-button {
+    display: block;
+}
+
+/* Game.html */
+
+.scoreboard {
+    margin: 20px auto;
+    border: 3px solid white;
+    border-radius: 4px;
+    text-align: center;
+    width: auto;
+    font-size: 18px;
+}
+
+.dare-card {
+    margin: 20px auto;
+    border: 3px solid white;
+    border-radius: 4px;
+    width: 350px;
+    height: 350px;
+    padding: 50px;
+    text-align: center; 
+    font-size: 18px;
+    font-family: Roboto Slab, sans-serif;
+}
+
+p {
+    font-family: Roboto Slab, sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+#container{
+    text-align: center;
+}
+
+#playCardButton, #passCardButton {
+    display: inline-block;
+}
+
+/* Dares.html */
+
+.dare-form {
+    display: block;
+    text-align: center;
+    max-width: 300px;
+    margin: auto;
+    font-family: Roboto Slab, sans-serif;
+}
+
+#timed-dare-form {
+    display: block;
+    border-color: white;
+    border-radius: 3px;
+    text-align: center;
+    margin: auto;
+    font-family: Roboto Slab, sans-serif;
+}
+
+/* Rules.html */
+
+#rules-container {
+    margin: 20px auto;
+    border: 3px solid white;
+    border-radius: 4px;
+    width: 500px;
+    height: auto;
+    padding: 50px;
+    text-align: center; 
+    font-size: 18px;
+}
+
+ol {
+    text-align: center;
+    margin: 10px auto;
+    color: white;
+    font-family: Roboto Slab, sans-serif;
+}
+
+
