@@ -80,7 +80,7 @@ header > h2 {
 
 /* Game.html */
 
-.scoreboard {
+#scoreboard {
     margin: 20px auto;
     border: 3px solid white;
     border-radius: 4px;
