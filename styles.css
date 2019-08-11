@@ -134,6 +134,21 @@ p {
     font-family: Roboto Slab, sans-serif;
 }
 
+#dares-list, p, ul {
+    display: block;
+    text-align: center;
+    margin: auto;
+    font-family: Roboto Slab, sans-serif;
+}
+
+#new-dares, li {
+    display: list-item;
+    text-align: center;
+    margin: auto;
+    font-family: Roboto Slab, sans-serif;
+    color: white;
+}
+
 /* Rules.html */
 
 #rules-container {

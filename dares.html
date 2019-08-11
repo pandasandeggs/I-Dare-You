@@ -20,19 +20,26 @@
     </div>
         <br/>
     <div>
-        <form action="submit" class="dare-form">
+        <form action="#" method="post" class="dare-form" id="create-dare-form">
             <p>Enter your dare:</p>
-            <input type="text" id="dare" placeholder="I dare you to...">
-            <input type="submit" class="submit" id="saveDareButton">
+            <input type="text" id="dare-content" placeholder="I dare you to...">
+            <input type="submit" value= "Add Dare" class="submit" id="saveDareButton">
         </form>
+            <br/> 
         <div>
             <button class="button" id="playGameButton">Play</button>
         </div>
     </div>
+        <br/>
+    <div>
+        <p>Dares:</p>
+            <br/>
+        <ul id="new-dares"></ul>
+    </div>
 
-    
-
-
-    <script type="text/javascript" src="app.js"></script>
+    <script type="text/javascript" src="js/oo_dare.js"></script>
+    <script type="text/javascript" src="js/dareList.js"></script>
+    <script type="text/javascript" src="js/dares.js"></script>
+    <script type="text/javascript" src="js/game.js"></script>
 </body>
 </html>
